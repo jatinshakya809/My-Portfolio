@@ -29,11 +29,7 @@ const Skills = () => {
     <div className="md:px-16 px-3 py-5">
       <div className="border-t md:px-32 border-gray-500">
         <div className="flex justify-center items-center gap-3">
-          <img
-            src="public/skills.png"
-            alt="Skills"
-            className="w-9 h-9 font-bold"
-          />
+          <img src="/skills.png" alt="Skills" className="w-9 h-9 font-bold" />
           <h1 className="text-center text-3xl my-4 font-semibold underline">
             My Skills
           </h1>
@@ -46,7 +42,7 @@ const Skills = () => {
               onClick={() => setShowLanguages(!showLanguages)}
             >
               <img
-                src="public/programming-language.png"
+                src="/programming-language.png"
                 alt=""
                 className="w-10 h-10"
               />
@@ -76,7 +72,7 @@ const Skills = () => {
               className="flex cursor-pointer items-center justify-around border-2 border-purple-500 rounded-full p-1  shadow-md "
               onClick={() => setShowFrontend(!showFrontend)}
             >
-              <img src="public/layer.png" alt="" className="w-8 h-8" />
+              <img src="/layer.png" alt="" className="w-8 h-8" />
               <h1 className="font-bold text-2xl ">Frontend</h1>
               <IoIosArrowDown size={30} />
             </div>
@@ -117,11 +113,7 @@ const Skills = () => {
               className="flex cursor-pointer items-center justify-around border-2 border-purple-500 rounded-full shadow-md"
               onClick={() => setShowBackend(!showBackend)}
             >
-              <img
-                src="public/web-programming.png"
-                alt=""
-                className="w-10 h-10"
-              />
+              <img src="/web-programming.png" alt="" className="w-10 h-10" />
               <h1 className="font-bold text-2xl ">Backend</h1>
               <IoIosArrowDown size={30} />
             </div>
@@ -148,7 +140,7 @@ const Skills = () => {
               className="flex cursor-pointer items-center justify-around border-2 border-purple-500 rounded-full p-1 shadow-md"
               onClick={() => setShowDatabases(!showDatabases)}
             >
-              <img src="public/server-storage.png" alt="" className="w-7 h-7" />
+              <img src="/server-storage.png" alt="" className="w-7 h-7" />
               <h1 className="font-bold text-2xl">Databases</h1>
               <IoIosArrowDown size={30} />
             </div>
@@ -175,7 +167,7 @@ const Skills = () => {
               className="flex cursor-pointer items-center justify-around border-2 border-purple-500 rounded-full p-1 shadow-md"
               onClick={() => setShowTools(!showTools)}
             >
-              <img src="public/settings.png" alt="" className="w-7 h-7 " />
+              <img src="/settings.png" alt="" className="w-7 h-7 " />
               <h1 className="font-bold text-2xl  ">Tools and Utilities</h1>
               <IoIosArrowDown size={30} />
             </div>
