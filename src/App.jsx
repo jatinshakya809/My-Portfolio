@@ -1,0 +1,31 @@
+import React from "react";
+import Landing from "./components/Landing";
+import Navbar from "./components/Navbar";
+import Marquee from "./components/Marquee";
+import About from "./components/About";
+import Skills from "./components/Skills";
+import Education from "./components/Education";
+import Project from "./components/Project";
+import LocomotiveScroll from "locomotive-scroll";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
+const App = () => {
+  const locomotiveScroll = new LocomotiveScroll();
+
+  return (
+    <div className="">
+      <Navbar />
+      <Landing />
+      <Marquee />
+      <About />
+      <Skills />
+      <Education />
+      <Project />
+      <Contact />
+      <Footer />
+    </div>
+  );
+};
+
+export default App;
