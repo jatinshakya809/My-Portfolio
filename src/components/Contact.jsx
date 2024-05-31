@@ -122,7 +122,9 @@ const Contact = () => {
               type="submit"
               onClick={(e) => {
                 e.preventDefault();
-                alert("Current form is not in working because i dont want to write a backend😅😅 but you can contact me on Linkedin")
+                alert(
+                  "Current form is not in working because i dont want to write a backend😅😅 but you can contact me on Linkedin"
+                );
               }}
               className="px-4 py-2 rounded-lg my-3 text-white text-xl bg-purple-500"
             >
