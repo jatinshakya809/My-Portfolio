@@ -75,8 +75,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="md:p-5 py-5 px-2">
-          <form name="contact" method="POST" data-netlify="true">
-            <input type="hidden" name="form-name" value="contact" />
+          <form>
             <div className="flex flex-col gap-4">
               <div className="md:flex space-y-4 md:space-y-0 gap-2 w-full">
                 <div className="border-2 border-purple-600 p-3 rounded-xl">
@@ -121,6 +120,10 @@ const Contact = () => {
             </div>
             <button
               type="submit"
+              onClick={(e) => {
+                e.preventDefault();
+                alert("Current form is not in working because i dont want to write a backend😅😅 but you can contact me on Linkedin")
+              }}
               className="px-4 py-2 rounded-lg my-3 text-white text-xl bg-purple-500"
             >
               Send Message <LuSendHorizonal className="inline" />
