@@ -118,7 +118,7 @@ const Landing = () => {
               );
             })}
             <img
-              src="src/asset/DSC_2205.JPG"
+              src="public/DSC_2205.JPG"
               alt="Jatin Image"
               className="rounded-full  md:w-72 md:h-72 w-56 h-56 object-cover rotate-[25deg]"
             />

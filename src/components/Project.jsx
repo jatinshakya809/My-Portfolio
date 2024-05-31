@@ -5,7 +5,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const projects = [
   {
-    img: "src/asset/dustypages.jpg",
+    img: "public/dustypages.jpg",
     title: "The Dusty Pages",
     description:
       "A bookstore website where you can buy books and read some free books. Sign up and boost your reading skills.",
@@ -14,7 +14,7 @@ const projects = [
     sourceLink: "https://github.com/jatinshakya809/Book-Store-MERN-WebSIte",
   },
   {
-    img: "src/asset/codedate.jpg",
+    img: "public/codedate.jpg",
     title: "The CodeDate",
     description:
       "A Codedate website where you can connect with random people and make them friend and chat with them. Sign up and try it.",
@@ -24,7 +24,7 @@ const projects = [
     sourceLink: "https://github.com/jatinshakya809/Tinder-Clone",
   },
   {
-    img: "src/asset/taskharbor.jpg",
+    img: "public/taskharbor.jpg",
     title: "Task Harbor",
     description:
       "A task management application where you can put your tasks with security and so that anyone can manage thier task. SignUp and orgnize yourself.",

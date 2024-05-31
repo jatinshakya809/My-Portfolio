@@ -5,7 +5,7 @@ const Education = () => {
   return (
     <div className="my-5 md:px-16">
       <div className="border-t flex border-gray-500 justify-center items-center gap-2">
-        <img src="src/asset/degree.png" alt="Degree" className="w-9 h-9" />
+        <img src="public/degree.png" alt="Degree" className="w-9 h-9" />
         <h1 className="text-3xl my-3 font-semibold underline">Education</h1>
       </div>
       <div className="flex justify-center my-8">
@@ -16,7 +16,7 @@ const Education = () => {
               Shri Ram College of Management and Engineering
             </h2>
             <div className="flex items-center gap-1">
-              <img src="src/asset/date.png" alt="Date" className="w-4 h-4" />
+              <img src="public/date.png" alt="Date" className="w-4 h-4" />
               <p className="text-gray-500 text-sm">2021-2025</p>
             </div>
           </div>
@@ -26,7 +26,7 @@ const Education = () => {
               The Radiant Higher Secondary School (CBSE)
             </h2>
             <div className="flex items-center gap-1">
-              <img src="src/asset/date.png" alt="Date" className="w-4 h-4" />
+              <img src="public/date.png" alt="Date" className="w-4 h-4" />
               <p className="text-gray-500 text-sm">2014-2019</p>
             </div>
           </div>
@@ -42,7 +42,7 @@ const Education = () => {
             The Radiant Higher Secondary School (CBSE)
           </h2>
           <div className="flex items-center gap-1">
-            <img src="src/asset/date.png" alt="Date" className="w-4 h-4" />
+            <img src="public/date.png" alt="Date" className="w-4 h-4" />
             <p className="text-gray-500 text-sm">2019-2021</p>
           </div>
         </div>
