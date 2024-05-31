@@ -39,7 +39,9 @@ const Skills = () => {
           <div className="">
             <div
               className="flex cursor-pointer items-center justify-around border-2 border-purple-500 rounded-full shadow-md"
-              onClick={() => setShowLanguages(!showLanguages)}
+              onClick={() => {
+                setShowLanguages(!showLanguages);
+              }}
             >
               <img
                 src="/programming-language.png"
@@ -47,11 +49,16 @@ const Skills = () => {
                 className="w-10 h-10"
               />
               <h1 className="font-bold text-2xl">Languages</h1>
-              <IoIosArrowDown size={30} />
+              <IoIosArrowDown
+                size={30}
+                className={`${
+                  showLanguages ? "rotate-180" : "rotate-0"
+                } duration-500 ease-[0.76, 0, 0.24, 1] transition-all`}
+              />
             </div>
 
             {showLanguages && (
-              <div className="px-3 ">
+              <div className="px-3">
                 <p className="text-gray-500 text-lg">
                   Languages that I have picked up over the years.
                 </p>
@@ -74,7 +81,12 @@ const Skills = () => {
             >
               <img src="/layer.png" alt="" className="w-8 h-8" />
               <h1 className="font-bold text-2xl ">Frontend</h1>
-              <IoIosArrowDown size={30} />
+              <IoIosArrowDown
+                size={30}
+                className={`${
+                  showFrontend ? "rotate-180" : "rotate-0"
+                } duration-500 ease-[0.76, 0, 0.24, 1] transition-all`}
+              />
             </div>
 
             {showFrontend && (
@@ -110,17 +122,24 @@ const Skills = () => {
 
           <div className="">
             <div
-              className="flex cursor-pointer items-center justify-around border-2 border-purple-500 rounded-full shadow-md"
-              onClick={() => setShowBackend(!showBackend)}
+              onClick={() => {
+                setShowBackend(!showBackend);
+              }}
+              className="flex cursor-pointer items-center justify-around border-2 border-purple-500 rounded-full shadow-md "
             >
               <img src="/web-programming.png" alt="" className="w-10 h-10" />
               <h1 className="font-bold text-2xl ">Backend</h1>
-              <IoIosArrowDown size={30} />
+              <IoIosArrowDown
+                size={30}
+                className={`${
+                  showBackend ? "rotate-180" : "rotate-0"
+                } duration-500 ease-[0.76, 0, 0.24, 1] transition-all`}
+              />
             </div>
 
             {showBackend && (
               <div className="px-3">
-                <p className="text-gray-500 text-md">
+                <p className="text-gray-500 text-md -z-50 ">
                   Languages that I prefer to work with Backend.
                 </p>
                 <div className="flex justify-between border-b-2 border-purple-500 my-3">
@@ -142,7 +161,12 @@ const Skills = () => {
             >
               <img src="/server-storage.png" alt="" className="w-7 h-7" />
               <h1 className="font-bold text-2xl">Databases</h1>
-              <IoIosArrowDown size={30} />
+              <IoIosArrowDown
+                size={30}
+                className={`${
+                  showDatabases ? "rotate-180" : "rotate-0"
+                } duration-500 ease-[0.76, 0, 0.24, 1] transition-all`}
+              />
             </div>
 
             {showDatabases && (
@@ -164,12 +188,17 @@ const Skills = () => {
 
           <div className="">
             <div
-              className="flex cursor-pointer items-center justify-around border-2 border-purple-500 rounded-full p-1 shadow-md"
+              className="flex cursor-pointer px-4 items-center justify-around border-2 border-purple-500 rounded-full p-1 shadow-md"
               onClick={() => setShowTools(!showTools)}
             >
               <img src="/settings.png" alt="" className="w-7 h-7 " />
               <h1 className="font-bold text-2xl  ">Tools and Utilities</h1>
-              <IoIosArrowDown size={30} />
+              <IoIosArrowDown
+                size={30}
+                className={`${
+                  showTools ? "rotate-180" : "rotate-0"
+                } duration-500 ease-[0.76, 0, 0.24, 1] transition-all`}
+              />
             </div>
 
             {showTools && (

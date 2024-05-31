@@ -9,7 +9,7 @@ const Marquee = () => {
       data-scroll-speed="0.3"
       className="h-[50vh] hidden md:flex   overflow-hidden flex-col justify-center text-center items-center"
     >
-      <div className="w-[120%] shadow-xl  items-center justify-center  hidden md:block rotate-[8deg]  bg-purple-500 py-1">
+      <div className="w-[120%] shadow-xl  items-center justify-center  hidden md:block rotate-[8deg]  bg-purple-600 py-1">
         <div className="text-white flex gap-1 overflow-hidden uppercase whitespace-nowrap">
           <motion.h1
             initial={{ x: 0 }}

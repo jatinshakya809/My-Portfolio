@@ -78,7 +78,7 @@ const Contact = () => {
           <form>
             <div className="flex flex-col gap-4">
               <div className="md:flex space-y-4 md:space-y-0 gap-2 w-full">
-                <div className="border-2 border-purple-600 p-3 rounded-xl">
+                <div className="border-2 border-purple-600  overflow-hidden md:overflow-visible p-3 rounded-xl">
                   <h1 className="font-semibold">Name</h1>
                   <input
                     type="text"
@@ -87,12 +87,12 @@ const Contact = () => {
                     required // Add required attribute if needed
                   />
                 </div>
-                <div className="w-full border-2 border-purple-600 p-3 rounded-xl">
+                <div className="w-full border-2 overflow-hidden  border-purple-600 p-3 rounded-xl">
                   <h1 className="font-semibold">Email</h1>
                   <input
                     type="email"
                     name="email" // Add this
-                    className="border-none bg-[#f8f8ff] outline-none"
+                    className=" bg-[#f8f8ff] border-none outline-none"
                     required // Add required attribute if needed
                   />
                 </div>

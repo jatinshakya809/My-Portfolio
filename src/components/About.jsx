@@ -7,18 +7,30 @@ const About = () => {
         <div className="w-full flex flex-col md:flex-row gap-5 md:pt-10 md:mt-20 border-black border-t-[1px]">
           <div className="md:w-1/2">
             <h1 className="md:text-3xl text-3xl my-3">About Me😎</h1>
-            <p className="text-xl text-gray-500 mb-2">
+            <p className="text-md text-gray-500 mb-2">
               Hey there,👋
               <br />
-              I'm Jatin, a 20-year-old Computer Science and Engineering (CSE)
-              undergraduate passionate about software and web development. I'm
-              pursuing a career as a Full Stack Web Developer 👨🏻‍💻, with over a
-              year of internship experience specializing in the MERN stack
-              (MongoDB, Express.js, React.js, Node.js) and Java. During my
-              internships at Ubitech Solutions and InternPe, I gained valuable
-              hands-on experience in developing dynamic and responsive web
-              applications, contributing to both frontend and backend
-              development.
+              I'm <span className="text-purple-500">Jatin</span>, a 20-year-old{" "}
+              <span className="text-purple-500">
+                Computer Science and Engineering
+              </span>
+              (CSE) undergraduate passionate about software and web development.
+              I'm pursuing a career as a{" "}
+              <span className="text-purple-500">
+                Full Stack Web Developer 👨🏻‍💻
+              </span>{" "}
+              , with over a year of internship experience specializing in the
+              MERN stack{" "}
+              <span className="text-purple-500">
+                (MongoDB, Express.js, React.js, Node.js)
+              </span>{" "}
+              and Java. During my internships at{" "}
+              <span className="text-purple-500">
+                Ubitech Solutions and InternPe
+              </span>{" "}
+              , I gained valuable hands-on experience in developing dynamic and
+              responsive web applications, contributing to both frontend and
+              backend development.
             </p>
             <p className="text-gray-500"></p>
           </div>
