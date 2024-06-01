@@ -45,7 +45,7 @@ const Navbar = () => {
         <motion.div className="hidden md:block">
           <div className="flex font-semibold  hover:bg-black hover:text-white text-center justify-center items-center gap-2 border border-black px-4 py-1 rounded-full transition-all duration-300 ease-in">
             <a
-              href="https://drive.google.com/file/d/1D7ByBrXbGgAIskALZJDaBfIqM4Mn5-ve/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1FC4tXunGr4B1ym_07CeFh7Ds3iHb7i67/view?usp=drivesdk"
               className=""
             >
               Resume
@@ -95,7 +95,7 @@ const Navbar = () => {
         </ul>
         <div className="flex my-3 mx-4 hover:bg-black hover:text-white text-center justify-center items-center gap-2 md:border md:border-black px-2 py-1 rounded-full transition-all duration-300 ease-in">
           <a
-            href="https://drive.google.com/file/d/1D7ByBrXbGgAIskALZJDaBfIqM4Mn5-ve/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1FC4tXunGr4B1ym_07CeFh7Ds3iHb7i67/view?usp=drivesdk"
             className="text-center"
           >
             Resume
