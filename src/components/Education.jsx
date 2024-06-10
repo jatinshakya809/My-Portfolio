@@ -10,7 +10,14 @@ const Education = () => {
       </div>
       <div className="flex justify-center md:px-0 px-3 my-8">
         <div>
-          <div className="md:w-48 w-[170px] pl-4 space-y-1">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            className="md:w-48 w-[170px] pl-4 space-y-1"
+          >
             <h1 className="text-md md:text-lg font-semibold">
               B.tech Computer Science
             </h1>
@@ -22,7 +29,14 @@ const Education = () => {
               <p className="text-gray-500 text-sm">2021-2025</p>
             </div>
           </div>
-          <div className="md:w-48 w-[170px] mt-48 md:mt-44 pl-2  space-y-1">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-delay="50"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-out"
+            className="md:w-48 w-[170px] mt-48 md:mt-44 pl-2 overflow-hidden  space-y-1"
+          >
             <h1 className="text-md md:text-lg font-semibold">
               Secondary School
             </h1>
@@ -40,7 +54,14 @@ const Education = () => {
           <div className="absolute p-2 -left-[10px] top-[170px] rounded-full bg-purple-600"></div>
           <div className="absolute p-2 -left-[10px] md:top-[325px] top-[331px] rounded-full bg-purple-600"></div>
         </div>
-        <div className="w-48 pl-3 pt-[165px] space-y-1">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="330"
+          data-aos-delay="50"
+          data-aos-duration="800"
+          data-aos-easing="ease-in-out"
+          className="w-48 pl-3 pt-[165px] space-y-1"
+        >
           <h1 className="text-md md:text-lg font-semibold">
             Senior Secondary School
           </h1>

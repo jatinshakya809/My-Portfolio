@@ -34,7 +34,21 @@ const About = () => {
             </p>
             <p className="text-gray-500"></p>
           </div>
-          <div className="md:w-1/2  h-[70vh] rounded-3xl bg-[#5b6638]"></div>
+          <div className="md:w-[50%] md:h-[70vh] h-[50vh] shadow-xl rounded-3xl overflow-hidden">
+            <img
+              src="/Untitled-2 copy.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* <div className="md:w-[50%] md:h-[64vh] h-[50vh]  shadow-xl rounded-3xl ">
+            <img
+              src="/Untitled-2 copy.jpg"
+              alt=""
+              className="rounded-3xl object-cover"
+            />
+          </div> */}
         </div>
       </div>
     </>

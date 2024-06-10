@@ -9,8 +9,11 @@ import Project from "./components/Project";
 import LocomotiveScroll from "locomotive-scroll";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const App = () => {
+  AOS.init();
   const locomotiveScroll = new LocomotiveScroll();
 
   return (
