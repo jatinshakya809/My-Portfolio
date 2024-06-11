@@ -8,7 +8,7 @@ const Education = () => {
         <img src="/degree.png" alt="Degree" className="w-9 h-9" />
         <h1 className="text-3xl my-3 font-semibold underline">Education</h1>
       </div>
-      <div className="flex justify-center md:px-0 px-3 my-8">
+      <div className="flex justify-center md:px-0 px-3 my-8 overflow-hidden">
         <div>
           <div
             data-aos="fade-right"
