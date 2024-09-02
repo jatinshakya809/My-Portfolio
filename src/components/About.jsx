@@ -36,8 +36,8 @@ const About = () => {
           </div>
           <div className="md:w-[50%] md:h-[70vh] h-[50vh] shadow-xl rounded-3xl overflow-hidden">
             <img
-              src="/Untitled-2 copy.jpg"
-              alt=""
+              src="/Untitled-2 copy2.jpg"
+              alt="My Photo"
               className="w-full h-full object-cover"
             />
           </div>

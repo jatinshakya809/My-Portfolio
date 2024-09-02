@@ -5,8 +5,8 @@ const Marquee = () => {
   return (
     <div
       data-scroll
-      data-scroll-sction
-      data-scroll-speed="0.3"
+      data-scroll-section
+      data-scroll-speed="0.9"
       className="h-[50vh] hidden md:flex   overflow-hidden flex-col justify-center text-center items-center"
     >
       <div className="w-[120%] shadow-xl  items-center justify-center  hidden md:block rotate-[8deg]  bg-purple-600 py-1">

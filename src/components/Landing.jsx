@@ -57,7 +57,7 @@ const Landing = () => {
   return (
     <div
       data-scroll
-      data-scroll-sction
+      data-scroll-section
       data-scroll-speed="-.6"
       className="min-h-[85vh] md:h-[85vh] md:px-16 px-3 py-5 md:py-12"
     >
@@ -118,9 +118,9 @@ const Landing = () => {
               );
             })}
             <img
-              src="/DSC_2205.JPG"
+              src="/DSC_2205 copy.jpg"
               alt="Jatin Image"
-              className="rounded-full  md:w-72 md:h-72 w-56 h-56 object-cover rotate-[25deg]"
+              className="rounded-full brightness-110  md:w-72 md:h-72 w-56 h-56 object-cover rotate-[25deg]"
             />
           </div>
         </div>

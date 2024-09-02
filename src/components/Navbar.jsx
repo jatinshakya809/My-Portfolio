@@ -45,7 +45,7 @@ const Navbar = () => {
         <motion.div className="hidden md:block">
           <div className="flex font-semibold  hover:bg-black hover:text-white text-center justify-center items-center gap-2 border border-black px-4 py-1 rounded-full transition-all duration-300 ease-in">
             <a
-              href="https://drive.google.com/file/d/1FC4tXunGr4B1ym_07CeFh7Ds3iHb7i67/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/19qdPiZXtO3KNyP0zCBoYsQcX-r7Sg0rs/view?usp=drive_link"
               className=""
             >
               Resume
